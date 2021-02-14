@@ -1,2 +1,2 @@
 # typescript
-typescript-by Pranav Jogawade
+typescript-by Pranav Jogawade.
