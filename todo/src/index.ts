@@ -58,7 +58,7 @@ function promptComplete() {
             collection.markComplete(item.id,
                 completedTasks.find(id => id === item.id) != undefined)
         })
-        promptUser()
+        promptUser();
     })
 }
 function promptUser(): void {
