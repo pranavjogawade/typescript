@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
+    "esm": "^3.2.25",
     "nodemon": "^2.0.7",
     "tsc": "^1.20150623.0"
   },
