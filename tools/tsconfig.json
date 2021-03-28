@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es2018",
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "noEmitOnError": true,
+        "module": "commonjs",
+        "sourceMap": true
+    }
+}
+
+// Name     Description
+// es3      This value targets the third edition of the language specification that was defined in
+//          December 1999 and is considered to be the baseline for the language. This is the default
+//          value when the target setting is not defined.
+// es5      This value targets the fifth edition of the language specification that was defined in
+//          December 2009 and focuses on consistency. (There was no fourth edition).
+//          es6 This value targets the sixth edition of the language specification and added features
+//          required for creating complex applications, such as classes and modules, arrow functions,
+//          and promises.
+// es2015   This value is equivalent to ES6.
+// es2016   This value targets the seventh edition of the language specification, which introduced the
+//          includes method for arrays and an exponentiation operator.
+// es2017   This value targets the eighth edition of the language specification, which introduced
+//          features for inspecting objects and new keywords for asynchronous operations.
+// es2018   This value targets the ninth edition of the language specification, which introduced the
+//          spread and rest operators and improvements for string handling and asynchronous
+//          operations.
+// esNext   This value refers to the features that are expected to be included in the next edition of
+//          the specification. The specific features supported by the TypeScript compiler can change
+//          between releases. This is an advanced setting that should be used with caution.

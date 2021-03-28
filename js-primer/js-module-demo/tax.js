@@ -4,5 +4,9 @@
 // in the rest of the application.
 // The default keyword is used when the module contains a single feature
 export function calculatedTax(price) {
+    console.log('calculatedPrice', price);
     return Number(price) * 1.3
+}
+export default function calcTaxandSum(...prices) {
+    return prices.reduce((total, p) => total += calculatedTax(p), 0);
 }
